@@ -1,0 +1,27 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Beer's Criteria SAS Macro
+message: 'If you use this code, please cite it as below.'
+type: software
+authors:
+  - given-names: Ashley
+    name-particle: I.
+    family-names: Martinez
+    name-suffix: 'PharmD, PhD'
+    email: ashley_martinez@harvardpilgrim.org
+    affiliation: >-
+      Harvard Pilgrim Health Care Institute and
+      Harvard Medical School
+    orcid: 'https://orcid.org/0000-0003-0304-8125'
+repository-code: 'https://github.com/ashleyRXEpi/beerscriteria'
+abstract: >-
+  This SAS macro takes in a patient-level dataset
+  with medication information and identifies the
+  number of medications that are included in Beers
+  Criteria 2015. The input dataset must be "wide,"
+  with one row per patient and one column per
+  medication.
+license: MIT
+date-released: '2020-10-07'
